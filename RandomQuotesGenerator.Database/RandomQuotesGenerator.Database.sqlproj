@@ -57,4 +57,10 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Quotes.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RandomQuotesGenerator.Database.publish.xml" />
+  </ItemGroup>
 </Project>
