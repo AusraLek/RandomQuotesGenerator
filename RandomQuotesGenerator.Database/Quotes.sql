@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Quotes]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [Text] VARCHAR(MAX) NULL, 
     [Author] VARCHAR(MAX) NULL
 )
